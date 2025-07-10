@@ -1,6 +1,6 @@
 {
+  "homepage": "https://github.com/faizalkhan87/My_music_App.git",
   "name": "new-app",
-  "homepage": "https://github.com/faizalkhan87/My_music_App",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeply": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.8",
