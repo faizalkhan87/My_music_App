@@ -1,15 +1,15 @@
 {
-  "homepage": "https://faizalkhan87/github.io/My_music_App",
   "name": "new-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://faizalkhan87.github.io/My_music_App",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeply": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
